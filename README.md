@@ -29,7 +29,7 @@ Users should be able to:
 ### Links
 
 - Project URL: https://www.frontendmentor.io/challenges/social-proof-section-6e0qTv_bA
-- Live Site URL: 
+- Live Site URL: https://aidenm99.github.io/Responsive-Social-Proof-Section/
 
 ## My process
 To begin, I laid out all of the code that I would need in HTML and then allocated everything to their respective divs. I then placed the elements in their rough 
@@ -40,7 +40,7 @@ positions and began styling.
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
--Bootstrap 4
+- Bootstrap 4
 
 ### What I learned
 - I learned how to better utilise bootstrap to create a responsive webpage and achieve my desired layout. I also learned how to use media queries.
