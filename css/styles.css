@@ -130,6 +130,7 @@ h1,h2,h3,h4,h5,h6 {
 .testimonial-card {
   background-color: hsl(300, 43%, 22%);
   border-radius:10px;
+  height:100%;
 }
 
 .irene {
@@ -171,6 +172,10 @@ h1,h2,h3,h4,h5,h6 {
 .anne {
   transform: translateY(30px);
 }
+  
+.testimonial-card {
+  height:auto;
+  }
 }
 
 @media (max-width:767px) {
