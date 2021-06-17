@@ -18,9 +18,7 @@ This is a solution to the [Social proof section challenge on Frontend Mentor](ht
 
 ### The challenge
 
-Users should be able to:
-
-- Recreate the social proof section according to the design specifications as accurately as possible.
+- Recreate the social proof section as accurately as possible according to the design specifications provided.
 
 ### Screenshot
 
@@ -28,12 +26,9 @@ Users should be able to:
 
 ### Links
 
-- Project URL: https://www.frontendmentor.io/challenges/social-proof-section-6e0qTv_bA
 - Live Site URL: https://aidenm99.github.io/Responsive-Social-Proof-Section/
 
 ## My process
-To begin, I laid out all of the code that I would need in HTML and then allocated everything to their respective divs. I then placed the elements in their rough 
-positions and began styling.
 
 ### Built with
 
@@ -43,10 +38,86 @@ positions and began styling.
 - Bootstrap 4
 
 ### What I learned
-- I learned how to better utilise bootstrap to create a responsive webpage and achieve my desired layout. I also learned how to use media queries.
+
+- How to use columns in bootstrap in order to accurately place content on the page
+
+```html
+<div class="col-lg-6">
+<div class="col-lg-4 col-md-6">
+```
+
+- How to use media queries to fine tune a responsive design where bootstrap columns cannot
+
+```css
+@media (max-width:1100px) {
+  .reviews:first-child {
+    transform:translateX(0);
+  }
+
+   .reviews:last-child {
+    transform:translateX(0);
+  }
+
+}
+
+@media (max-width:991px) {
+  body {
+    text-align: center;
+  }
+
+  .reviews {
+    min-width:0;
+    text-align: center;
+    margin:0 auto 20px;
+  }
+
+  .reviews:first-child {
+    transform:translateX(0);
+  }
+
+   .reviews:last-child {
+    transform:translateX(0);
+  }
+
+  .star {
+    margin:auto;
+  }
+
+  b {
+    display:block;
+    margin:10px 0 0;
+  }
+
+}
+```
+
+- How to use the transform property to manipulate elements on the screen
+
+```css
+ .reviews:last-child {
+  transform:translateX(30px);
+}
+```
+
+- How to select an item using first child, last child and nth child 
+
+```css
+.reviews:first-child {
+  transform:translateX(-30px);
+}
+
+ .reviews:last-child {
+  transform:translateX(30px);
+}
+
+.reviews:nth-child(2) {
+  transform:translateX()
+}
+```
 
 ### Continued development
--I plan to learn how to utilise grid within Bootstrap to be able to more easily lay out my webpages.
+
+-I plan to learn how to utilise the grid property within Bootstrap to allow for greater ease of laying out webpages and to achieve a fully responsive design on all devices.
 
 ## Author
 
