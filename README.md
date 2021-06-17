@@ -117,7 +117,7 @@ This is a solution to the [Social proof section challenge on Frontend Mentor](ht
 
 ### Continued development
 
--I plan to learn how to utilise the grid property within Bootstrap to allow for greater ease of laying out webpages and to achieve a fully responsive design on all devices.
+- I plan to learn how to utilise the grid property within Bootstrap to allow for greater ease of laying out webpages and to achieve a fully responsive design on all devices.
 
 ## Author
 
